@@ -39,7 +39,7 @@ Creating the trigger is extremely easy with an intuitive UI.
 
   
   // Query  all the needed materialized Views from the configuration collection
-  const matierializedViews =  context.services.get("Cluster0").db("configurations").collection("matirealizedViews");
+  const matierializedViews =  context.services.get("Cluster0").db("configurations").collection("5_min_mviews");
    matierializedViews.find().toArray().then( viewsList =>
   { 
     // Create an execution array of all the $merge commands
