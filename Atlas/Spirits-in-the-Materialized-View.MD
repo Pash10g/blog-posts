@@ -27,6 +27,7 @@ db.5_min_mviews.find()
 ### Trigger code
 
 Creating the trigger is extremely easy with an intuitive UI.
+![GitHub Logo](TriggerPicture.png)
 
 **Function Code**
 
